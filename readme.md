@@ -18,7 +18,13 @@ Instructions:
    npm install
    ```
 
-3. **Run the Application**
+3. **Build the project**
+
+   ```
+   npm run build
+   ```
+
+4. **Run the Application**
    ```
    npm start
    ```
