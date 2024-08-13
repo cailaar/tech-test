@@ -1,4 +1,4 @@
 node_modules/
 dist/
 build/
-main.js
+src/main.js
