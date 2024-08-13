@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "http-server -c-1 src/",
-    "build": "tsc",
+    "build": "tsc src/main.ts",
     "test": "jest"
   },
   "author": "",
