@@ -12,19 +12,27 @@ Instructions:
    git clone https://github.com/cailaar/tech-test.git
    ```
 
-2. **Navigate to the Project Directory and Install Dependencies**
+2. **Navigate to the Project Directory**
+
+   ```
+   cd tech-test
+   ```
+
+3. **Install Dependencies**
 
    ```
    npm install
    ```
 
-3. **Build the project**
+4. **Build the project**
 
    ```
    npm run build
    ```
 
-4. **Run the Application**
+   You should get the `/dist` folder and a `main.js` file as a result
+
+5. **Run the Application**
    ```
    npm start
    ```
