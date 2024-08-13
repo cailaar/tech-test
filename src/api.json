@@ -1,0 +1,50 @@
+{
+    "questions": [
+      {
+        "id": 132,
+        "title": "What is your name?",
+        "fields": [
+          {
+            "element": "input",
+            "type": "text",
+            "placeholder": "e.g John Smith"
+          }
+        ]
+      },
+      {
+        "id": 212,
+        "title": "What is your date of birth?",
+        "fields": [
+          {
+            "element": "input",
+            "type": "date"
+          }
+        ]
+      },
+      {
+        "id": 343,
+        "title": "What kind of vehicle do you drive?",
+        "fields": [
+          {
+            "element": "select",
+            "type": "dropdown",
+            "placeholder": "Select a vehicle type",
+            "options": [
+              { 
+                "label": "Van",
+                "value": "van"
+              },
+              {
+                "label": "Car",
+                "value": "car"
+              },
+              {
+                "label": "Bike",
+                "value": "bike"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

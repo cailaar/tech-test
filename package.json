@@ -1,0 +1,23 @@
+{
+  "name": "tech-test",
+  "version": "1.0.0",
+  "description": "Take the JSON file provided and generate a question list UI from the data it describes.",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server -c-1 src/",
+    "build": "tsc main.ts",
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "http-server": "^14.1.1",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "jsdom": "^24.1.1",
+    "ts-jest": "^29.2.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  }
+}

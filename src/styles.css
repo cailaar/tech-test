@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  
+  align-items: center;     
+  padding: 10px; 
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif; 
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: #0e4a8e; /* CTM blue :) */
+  font-size: 24px; 
+}
+
+#dynamic-form {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Field stylings */
+.question {
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+/* Removing margin from the last field */
+.question:last-of-type {
+  margin-bottom: 0;
+}
+
+.question label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #0e4a8e; 
+}
+
+.question input, .question select  {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #0e4a8e; 
+  border-radius: 4px;
+  font-size: 14px;
+}
+
